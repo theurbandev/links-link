@@ -32,8 +32,8 @@ export default function Home() {
             </section>
 
             <main className="flex flex-col min-h-screen items-center">
-                <div className="grid gap-4 grid-cols-1 w-full p-16 max-w-screen-md justify-center">
-                    <p className="text-center pb-10">everything you{"'"}re looking for.</p>
+                <div className="grid gap-4 grid-cols-1 w-full pl-14 pr-14 max-w-screen-md justify-center">
+                    <p className="text-center pb-10 pt-20">everything you{"'"}re looking for.</p>
                     {Object.keys(links).map((key: any) => (
                         <Link key={key} url={links[key].url} logo={links[key].logo} text={key} />
                     ))}
