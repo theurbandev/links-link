@@ -3,7 +3,7 @@ import Link from "./components/link";
 export default function Home() {
     interface LinkItem {
         url: string;
-        logo?: string;
+        logo?: any;
     }
 
     const links: { [key: string]: LinkItem } = {
@@ -17,6 +17,10 @@ export default function Home() {
         twitter: {
             url: "https://twitter.com/theurbandev",
             logo: "twitter-logo",
+        },
+        linkedin: {
+            url: "https://www.linkedin.com/in/matthew-joseph-1456a21a7/",
+            logo: "linkedin",
         },
     };
 
